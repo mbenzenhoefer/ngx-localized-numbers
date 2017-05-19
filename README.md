@@ -43,7 +43,7 @@ import {NgxLocalizedNumbers} from "ngx-localized-numbers";
 @NgModule({
     imports: [
         // ...
-        NgxLocalizeNumbers
+        NgxLocalizedNumbers
     ],
     // ...
 })
@@ -62,11 +62,11 @@ The locale can be set as follows (and anywhere else as well):
     // ...
 })
 export class AppComponent implements OnInit {
-    constructor(private localizeNumbersService: NgxLocalizedNumbersService) {
+    constructor(private localizedNumbersService: NgxLocalizedNumbersService) {
     }
 
     ngOnInit() {
-        this.localizeNumbersService.setLocale("de_DE");
+        this.localizedNumbersService.setLocale("de_DE");
     }
 }
 ```
@@ -108,7 +108,7 @@ or combine both pipes:
 ## Define additional locales
 You also may add or overwrite locales to the service:
 ```ts
-this.localizeNumbersService.addLocale("en_US", {
+this.localizedNumbersService.addLocale("en_US", {
    thousandSeparator: ",",
    decimalSeparator: ".",
    whitespaceBeforeCurrency: true,
