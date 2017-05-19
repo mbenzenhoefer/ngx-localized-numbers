@@ -1,0 +1,47 @@
+{
+  "name": "ngx-localized-numbers",
+  "version": "0.0.1",
+  "description": "library to localize numbers and currency with angular",
+  "main": "index.ts",
+  "scripts": {
+    "lint": "npm run tslint \"src/*.ts\"",
+    "tslint": "tslint",
+    "prepublish": "npm run lint && ngc && copyfiles -f src/*.js src/*.js.map src/*.d.ts src/*.metadata.json ."
+  },
+  "license": "MIT",
+  "keywords": [
+    "localize",
+    "numbers",
+    "currency",
+    "i18n"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "dependencies": {
+    "rxjs": "^5.0.3",
+    "zone.js": "^0.8.10"
+  },
+  "bugs": {
+    "url": "https://github.com/mbenzenhoefer/ngx-localized-numbers/issues"
+  },
+  "homepage": "https://github.com/mbenzenhoefer/ngx-localized-numbers#readme",
+  "devDependencies": {
+    "@angular/animations": "^4.1.2",
+    "@angular/common": "^4.1.2",
+    "@angular/compiler": "^4.1.2",
+    "@angular/compiler-cli": "^4.1.2",
+    "@angular/core": "^4.1.2",
+    "@angular/platform-browser": "^4.1.2",
+    "@angular/platform-browser-dynamic": "^4.1.2",
+    "@angular/platform-server": "^4.1.2",
+    "copyfiles": "^1.2.0",
+    "tslib": "^1.6.0",
+    "tslint": "^5.2.0",
+    "typescript": "~2.3.2",
+    "@types/core-js": "^0.9.37",
+    "@types/jasmine": "^2.5.38",
+    "@types/hammerjs": "^2.0.34"
+  },
+  "typings": "./index.d.ts"
+}
