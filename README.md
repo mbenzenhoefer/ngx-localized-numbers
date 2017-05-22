@@ -26,7 +26,7 @@ npm install ngx-localized-numbers --save
 ### Import into application
 First you need to import the module as forRoot() into your parent module:
 ```ts
-import {NgxLocalizeNumbers} from "ngx-localized-numbers";
+import {NgxLocalizedNumbers} from "ngx-localized-numbers";
 @NgModule({
     imports: [
         // ...
