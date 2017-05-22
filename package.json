@@ -1,8 +1,8 @@
 {
   "name": "ngx-localized-numbers",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "library to localize numbers and currency with angular",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
     "lint": "npm run tslint \"src/*.ts\"",
     "tslint": "tslint",
@@ -13,7 +13,8 @@
     "localize",
     "numbers",
     "currency",
-    "i18n"
+    "i18n",
+    "amount"
   ],
   "exclude": [
     "node_modules"
@@ -22,10 +23,15 @@
     "rxjs": "^5.0.3",
     "zone.js": "^0.8.10"
   },
+  "author": "Moritz Benzenhöfer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbenzenhoefer/ngx-localized-numbers.git"
+  },
   "bugs": {
     "url": "https://github.com/mbenzenhoefer/ngx-localized-numbers/issues"
   },
-  "homepage": "https://github.com/mbenzenhoefer/ngx-localized-numbers#readme",
+  "homepage": "https://github.com/mbenzenhoefer/ngx-localized-numbers",
   "devDependencies": {
     "@angular/animations": "^4.1.2",
     "@angular/common": "^4.1.2",

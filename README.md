@@ -117,4 +117,4 @@ this.localizedNumbersService.addLocale("en_US", {
 
 ```
 
-** feel free to add missing locales via a PR, thanks! ** (see src/locales.config.ts)
+**feel free to add missing locales via a PR, thanks!** (see src/locales.config.ts)
