@@ -1,12 +1,13 @@
 {
   "name": "ngx-localized-numbers",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "library to localize numbers and currency with angular",
   "main": "index.js",
   "scripts": {
     "lint": "npm run tslint \"src/*.ts\"",
     "tslint": "tslint",
-    "prepublish": "npm run lint && ngc && copyfiles -f src/*.js src/*.js.map src/*.d.ts src/*.metadata.json ."
+    "prepublish": "npm run cleanup && npm run lint && ngc && copyfiles -f src/*.js src/*.js.map src/*.d.ts src/*.metadata.json .",
+    "cleanup": "del src/*.js *.js src/*.js.map *.js.map src/*.d.ts *.d.ts src/*.metadata.json *.metadata.json src/*.ngsummary.json *.ngsummary.json"
   },
   "license": "MIT",
   "keywords": [
@@ -41,13 +42,14 @@
     "@angular/platform-browser": "^4.1.2",
     "@angular/platform-browser-dynamic": "^4.1.2",
     "@angular/platform-server": "^4.1.2",
+    "@types/core-js": "^0.9.37",
+    "@types/hammerjs": "^2.0.34",
+    "@types/jasmine": "^2.5.38",
     "copyfiles": "^1.2.0",
+    "del-cli": "^1.0.0",
     "tslib": "^1.6.0",
     "tslint": "^5.2.0",
-    "typescript": "~2.3.2",
-    "@types/core-js": "^0.9.37",
-    "@types/jasmine": "^2.5.38",
-    "@types/hammerjs": "^2.0.34"
+    "typescript": "~2.3.2"
   },
   "typings": "./index.d.ts"
 }
