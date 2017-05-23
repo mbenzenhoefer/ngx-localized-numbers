@@ -15,16 +15,15 @@ export class NgxLocalizedNumbersService {
     }
 
     setLocale(locale: string): void {
-        // TODO: check if locale file exists
         if (!this.definedLocales.get(locale)) {
-            console.warn("locale '" + locale + "' does not exist");
+            console.warn("ngx-localized-numbers: locale '" + locale + "' does not exist");
         }
         this.locale = locale;
     }
 
     getLocale(): string {
         if (!this.locale) {
-            console.warn("ngx-number: no locale was defined, return default");
+            console.warn("ngx-localized-numbers: no locale was defined, return default");
             return this.DEFAULT_LOCALE;
         }
         return this.locale;
