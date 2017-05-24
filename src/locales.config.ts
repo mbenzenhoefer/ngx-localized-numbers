@@ -40,4 +40,39 @@ export const NGX_NUMBERS_LOCALES: Map<string, ConfigurationModel> = new Map()
         decimalSeparator: ",",
         whitespaceBeforeCurrency: true,
         currency: "CAD"
+    }).set("zh_TW", {
+        thousandSeparator: " ",
+        decimalSeparator: ".",
+        whitespaceBeforeCurrency: true,
+        currency: "TWS"
+    }).set("ja_JP", {
+        thousandSeparator: " ",
+        decimalSeparator: ".",
+        whitespaceBeforeCurrency: true,
+        currency: "Yen"
+    }).set("zh_CN", {
+        thousandSeparator: " ",
+        decimalSeparator: ".",
+        whitespaceBeforeCurrency: true,
+        currency: "CNY"
+    }).set("ko_KR", {
+        thousandSeparator: " ",
+        decimalSeparator: ".",
+        whitespaceBeforeCurrency: true,
+        currency: "₩"
+    }).set("ru_RU", {
+        thousandSeparator: " ",
+        decimalSeparator: ",",
+        whitespaceBeforeCurrency: true,
+        currency: "RUB"
+    }).set("nl_NL", {
+        thousandSeparator: " ",
+        decimalSeparator: ",",
+        whitespaceBeforeCurrency: true,
+        currency: "€"
+    }).set("pt_BR", {
+        thousandSeparator: " ",
+        decimalSeparator: ",",
+        whitespaceBeforeCurrency: true,
+        currency: "€"
     });

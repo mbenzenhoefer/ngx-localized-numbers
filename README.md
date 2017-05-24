@@ -15,6 +15,13 @@ The following locales are currently supported by ngx-localized-numbers:
 * it_IT
 * fr_CA
 * en_CA
+* zh_TW
+* ko_KR
+* ja_JP
+* zh_CN
+* ru_RU
+* nl_NL
+* pt_BR
 
 ## Installation
 First you need to install the npm module:
