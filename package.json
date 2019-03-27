@@ -1,6 +1,6 @@
 {
   "name": "ngx-localized-numbers",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "library to localize numbers and currency with angular",
   "main": "index.js",
   "scripts": {
