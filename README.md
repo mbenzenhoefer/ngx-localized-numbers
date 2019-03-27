@@ -10,9 +10,47 @@ library to localize numbers and currency with angular
 
 The following locales are currently supported by ngx-localized-numbers:
 
-- cs_CZ da_DK de_DE de_AT de_CH de_LU el_GR en_AU en_CA en_GB en_IE en_NZ en_US es_ES fr_FR it_CH
-- fi_FI fr_BE fr_CA fr_CH fr_FR fr_LU it_CH it_IT fi_FI hu_HU ga_IE zh_TW ja_JP zh_CN ko_KR nl_BE
-- nl_NL no_NO pl_PL pt_PT pt_BR ro_RO ru_RU sk_SK sv_SE
+- cs_CZ
+- da_DK
+- de_DE
+- de_AT
+- de_CH
+- de_LU
+- el_GR
+- en_AU
+- en_CA
+- en_GB
+- en_IE
+- en_NZ
+- en_US
+- es_ES
+- fr_FR
+- it_CH
+- fi_FI
+- fr_BE
+- fr_CA
+- fr_CH
+- fr_FR
+- fr_LU
+- it_CH
+- it_IT
+- fi_FI
+- hu_HU
+- ga_IE
+- ja_JP
+- ko_KR
+- nl_BE
+- nl_NL
+- no_NO
+- pl_PL
+- pt_PT
+- pt_BR
+- ro_RO
+- ru_RU
+- sk_SK
+- sv_SE
+- zh_CN
+- zh_TW
 
 ## Installation
 
