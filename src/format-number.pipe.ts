@@ -1,20 +1,13 @@
-import {
-    Pipe,
-    PipeTransform
-} from "@angular/core";
-import { NgxLocalizedNumbersService } from "./localized-numbers.service";
+import { Pipe, PipeTransform } from '@angular/core';
+import { NgxLocalizedNumbersService } from './localized-numbers.service';
 
 @Pipe({
-    name: "formatNumber"
+  name: 'formatNumber'
 })
-
 export class LocalizationFormatNumberPipe implements PipeTransform {
+  constructor(private numberService: NgxLocalizedNumbersService) {}
 
-    constructor(private numberService: NgxLocalizedNumbersService) {
-
-    }
-
-    transform(value: any, decimals: number): any {
-        return this.numberService.formatNumber(value, decimals);
-    }
+  transform(value: any, decimals: number): any {
+    return this.numberService.formatNumber(value, decimals);
+  }
 }

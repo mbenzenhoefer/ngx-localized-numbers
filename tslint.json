@@ -1,23 +1,14 @@
 {
   "rules": {
     "class-name": true,
-    "comment-format": [
-      true,
-      "check-space"
-    ],
+    "comment-format": [true, "check-space"],
     "curly": true,
     "eofline": true,
     "forin": true,
     "import-spacing": true,
-    "indent": [
-      true,
-      "spaces"
-    ],
+    "indent": [true, "spaces"],
     "label-position": true,
-    "max-line-length": [
-      true,
-      140
-    ],
+    "max-line-length": [true, 140],
     "typedef": [
       true,
       "call-signature",
@@ -31,14 +22,7 @@
     "member-access": false,
     "no-arg": true,
     "no-bitwise": true,
-    "no-console": [
-      true,
-      "debug",
-      "info",
-      "time",
-      "timeEnd",
-      "trace"
-    ],
+    "no-console": [true, "debug", "info", "time", "timeEnd", "trace"],
     "no-construct": true,
     "no-debugger": true,
     "no-duplicate-variable": true,
@@ -61,18 +45,10 @@
       "check-else",
       "check-whitespace"
     ],
-    "quotemark": [
-      true,
-      "double"
-    ],
+    "quotemark": [true, "single"],
     "radix": true,
-    "semicolon": [
-      "always"
-    ],
-    "triple-equals": [
-      true,
-      "allow-null-check"
-    ],
+    "semicolon": ["always"],
+    "triple-equals": [true, "allow-null-check"],
     "typedef-whitespace": [
       true,
       {
@@ -95,15 +71,17 @@
     ]
   },
   "no-unused-variable": true,
-  "member-ordering":
-  [true, {
-    "order": [
-      "static-field",
-      "instance-field",
-      "constructor",
-      "public-instance-method",
-      "protected-instance-method",
-      "private-instance-method"
-    ]
-  }]
+  "member-ordering": [
+    true,
+    {
+      "order": [
+        "static-field",
+        "instance-field",
+        "constructor",
+        "public-instance-method",
+        "protected-instance-method",
+        "private-instance-method"
+      ]
+    }
+  ]
 }
