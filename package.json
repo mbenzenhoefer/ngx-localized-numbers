@@ -21,7 +21,7 @@
     "node_modules"
   ],
   "dependencies": {
-    "zone.js": "^0.8.10"
+    "zone.js": "^0.8.26"
   },
   "author": "Moritz Benzenhöfer",
   "repository": {
@@ -33,24 +33,24 @@
   },
   "homepage": "https://github.com/mbenzenhoefer/ngx-localized-numbers",
   "devDependencies": {
-    "@angular/animations": "^6.0.0",
-    "@angular/common": "^6.0.0",
-    "@angular/compiler": "^6.0.0",
-    "@angular/compiler-cli": "^6.0.0",
-    "@angular/core": "^6.0.0",
-    "@angular/platform-browser": "^6.0.0",
-    "@angular/platform-browser-dynamic": "^6.0.0",
-    "@angular/platform-server": "^6.0.0",
+    "@angular/animations": "^7.0.0",
+    "@angular/common": "^7.0.0",
+    "@angular/compiler": "^7.0.0",
+    "@angular/compiler-cli": "^7.0.0",
+    "@angular/core": "^7.0.0",
+    "@angular/platform-browser": "^7.0.0",
+    "@angular/platform-browser-dynamic": "^7.0.0",
+    "@angular/platform-server": "^7.0.0",
     "@types/core-js": "^0.9.37",
     "@types/hammerjs": "^2.0.34",
     "@types/jasmine": "^2.5.38",
     "@types/node": "^10.5.2",
     "copyfiles": "^1.2.0",
     "del-cli": "^1.0.0",
-    "rxjs": "^6.2.2",
+    "rxjs": "^6.4.0",
     "tslib": "^1.6.0",
-    "tslint": "^5.2.0",
-    "typescript": "~2.7.2"
+    "tslint": "~5.12.1",
+    "typescript": "~3.2.4"
   },
   "typings": "./index.d.ts"
 }
