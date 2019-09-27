@@ -60,11 +60,29 @@ export const NGX_NUMBERS_LOCALES: Map<string, ConfigurationModel> = new Map()
     whitespaceBeforeCurrency: true,
     currency: '£'
   })
+  .set('en_HK', {
+    thousandSeparator: ',',
+    decimalSeparator: '.',
+    whitespaceBeforeCurrency: false,
+    currency: 'HK$'
+  })
   .set('en_IE', {
     thousandSeparator: ',',
     decimalSeparator: '.',
     whitespaceBeforeCurrency: true,
     currency: '€'
+  })
+  .set('en_IN', {
+    thousandSeparator: ',',
+    decimalSeparator: '.',
+    whitespaceBeforeCurrency: false,
+    currency: '₹'
+  })
+  .set('en_MY', {
+    thousandSeparator: ',',
+    decimalSeparator: '.',
+    whitespaceBeforeCurrency: false,
+    currency: 'MYR'
   })
   .set('en_NZ', {
     thousandSeparator: ',',
@@ -72,9 +90,33 @@ export const NGX_NUMBERS_LOCALES: Map<string, ConfigurationModel> = new Map()
     whitespaceBeforeCurrency: true,
     currency: '$'
   })
+  .set('en_TH', {
+    thousandSeparator: ',',
+    decimalSeparator: '.',
+    whitespaceBeforeCurrency: true,
+    currency: '฿'
+  })
   .set('en_US', {
     thousandSeparator: ',',
     decimalSeparator: '.',
+    whitespaceBeforeCurrency: true,
+    currency: '$'
+  })
+  .set('en_ZA', {
+    thousandSeparator: ',',
+    decimalSeparator: '.',
+    whitespaceBeforeCurrency: false,
+    currency: 'ZAR'
+  })
+  .set('es_AR', {
+    thousandSeparator: '.',
+    decimalSeparator: ',',
+    whitespaceBeforeCurrency: true,
+    currency: '$'
+  })
+  .set('es_CO', {
+    thousandSeparator: '.',
+    decimalSeparator: ',',
     whitespaceBeforeCurrency: true,
     currency: '$'
   })
@@ -84,7 +126,7 @@ export const NGX_NUMBERS_LOCALES: Map<string, ConfigurationModel> = new Map()
     whitespaceBeforeCurrency: true,
     currency: '€'
   })
-  .set('fr_FR', {
+  .set('fi_FI', {
     thousandSeparator: ' ',
     decimalSeparator: ',',
     whitespaceBeforeCurrency: true,
@@ -120,21 +162,9 @@ export const NGX_NUMBERS_LOCALES: Map<string, ConfigurationModel> = new Map()
     whitespaceBeforeCurrency: true,
     currency: '€'
   })
-  .set('it_CH', {
-    thousandSeparator: '’',
+  .set('ga_IE', {
+    thousandSeparator: ',',
     decimalSeparator: '.',
-    whitespaceBeforeCurrency: true,
-    currency: 'CHF'
-  })
-  .set('it_IT', {
-    thousandSeparator: '.',
-    decimalSeparator: ',',
-    whitespaceBeforeCurrency: true,
-    currency: '€'
-  })
-  .set('fi_FI', {
-    thousandSeparator: ' ',
-    decimalSeparator: ',',
     whitespaceBeforeCurrency: true,
     currency: '€'
   })
@@ -144,9 +174,21 @@ export const NGX_NUMBERS_LOCALES: Map<string, ConfigurationModel> = new Map()
     whitespaceBeforeCurrency: true,
     currency: 'Ft.'
   })
-  .set('ga_IE', {
-    thousandSeparator: ',',
+  .set('is_IS', {
+    thousandSeparator: '.',
+    decimalSeparator: ',',
+    whitespaceBeforeCurrency: true,
+    currency: 'ISK'
+  })
+  .set('it_CH', {
+    thousandSeparator: '’',
     decimalSeparator: '.',
+    whitespaceBeforeCurrency: true,
+    currency: 'CHF'
+  })
+  .set('it_IT', {
+    thousandSeparator: '.',
+    decimalSeparator: ',',
     whitespaceBeforeCurrency: true,
     currency: '€'
   })
@@ -222,11 +264,29 @@ export const NGX_NUMBERS_LOCALES: Map<string, ConfigurationModel> = new Map()
     whitespaceBeforeCurrency: true,
     currency: 'kr'
   })
+  .set('th_TH', {
+    thousandSeparator: ',',
+    decimalSeparator: '.',
+    whitespaceBeforeCurrency: true,
+    currency: '฿'
+  })
+  .set('tr_TR', {
+    thousandSeparator: '.',
+    decimalSeparator: ',',
+    whitespaceBeforeCurrency: true,
+    currency: '₺'
+  })
   .set('zh_CN', {
     thousandSeparator: ' ',
     decimalSeparator: '.',
     whitespaceBeforeCurrency: true,
     currency: 'CNY'
+  })
+  .set('zh_HK', {
+    thousandSeparator: ',',
+    decimalSeparator: '.',
+    whitespaceBeforeCurrency: false,
+    currency: 'HK$'
   })
   .set('zh_TW', {
     thousandSeparator: ' ',
