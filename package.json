@@ -1,6 +1,6 @@
 {
   "name": "ngx-localized-numbers",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "library to localize numbers and currency with angular",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "node_modules"
   ],
   "dependencies": {
-    "zone.js": "^0.8.26"
+    "zone.js": "^0.11.3"
   },
   "author": "Moritz Benzenhöfer",
   "repository": {
@@ -33,14 +33,14 @@
   },
   "homepage": "https://github.com/mbenzenhoefer/ngx-localized-numbers",
   "devDependencies": {
-    "@angular/animations": "^10.0.0",
-    "@angular/common": "^10.0.0",
-    "@angular/compiler": "^10.0.0",
-    "@angular/compiler-cli": "^10.0.0",
-    "@angular/core": "^10.0.0",
-    "@angular/platform-browser": "^10.0.0",
-    "@angular/platform-browser-dynamic": "^10.0.0",
-    "@angular/platform-server": "^10.0.0",
+    "@angular/animations": "^11.0.0",
+    "@angular/common": "^11.0.0",
+    "@angular/compiler": "^11.0.0",
+    "@angular/compiler-cli": "^11.0.0",
+    "@angular/core": "^11.0.0",
+    "@angular/platform-browser": "^11.0.0",
+    "@angular/platform-browser-dynamic": "^11.0.0",
+    "@angular/platform-server": "^11.0.0",
     "@types/core-js": "^0.9.37",
     "@types/hammerjs": "^2.0.34",
     "@types/jasmine": "^2.5.38",
@@ -50,7 +50,7 @@
     "rxjs": "^6.4.0",
     "tslib": "^1.6.0",
     "tslint": "~5.12.1",
-    "typescript": "~4.0.0"
+    "typescript": "~4.1.0"
   },
   "typings": "./index.d.ts"
 }
