@@ -2,11 +2,17 @@
 
 library to localize numbers and currency with angular
 
+- [Supported Locales](#supported-locales)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Define additional locales](#define-additional-locales)
 
-## Supported locales
+## Compatible versions with angular
+- `>= 5.0.0`: angular 11
+- `>= 4.0.0`: angular 10
+- `0.3.1`: angular 7-9
+
+## Supported Locales
 
 The following locales are currently supported by ngx-localized-numbers:
 
