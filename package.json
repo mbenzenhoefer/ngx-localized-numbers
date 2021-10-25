@@ -1,13 +1,14 @@
 {
   "name": "ngx-localized-numbers",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "library to localize numbers and currency with angular",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "lint": "npm run tslint \"src/*.ts\"",
     "tslint": "tslint",
-    "prepublish": "npm run cleanup && npm run lint && ngc && copyfiles -f src/*.js src/*.js.map src/*.d.ts src/*.metadata.json .",
-    "cleanup": "del-cli src/*.js *.js src/*.js.map *.js.map src/*.d.ts *.d.ts src/*.metadata.json *.metadata.json src/*.ngsummary.json *.ngsummary.json || true"
+    "prepublish": "npm run cleanup && tsc",
+    "cleanup": "del-cli src/*.js *.js src/*.js.map *.js.map src/*.d.ts *.js *.d.ts src/*.metadata.json *.metadata.json src/*.ngsummary.json *.ngsummary.json || true"
   },
   "license": "MIT",
   "keywords": [

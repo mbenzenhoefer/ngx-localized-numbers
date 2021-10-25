@@ -12,3 +12,4 @@ Thumbs.db
 *.ngsummary.json
 *.ngfactory.ts
 .idea/*
+*.tgz
