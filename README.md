@@ -8,8 +8,8 @@ library to localize numbers and currency with angular
 - [Define additional locales](#define-additional-locales)
 
 ## Compatible versions with angular
-- `>= 5.0.0`: angular 11
-- `>= 4.0.0`: angular 10
+- `>= 0.5.0`: angular 11
+- `>= 0.4.0`: angular 10
 - `0.3.1`: angular 7-9
 
 ## Supported Locales
