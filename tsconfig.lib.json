@@ -1,0 +1,24 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../out-tsc/lib",
+    "declarationMap": true,
+    "target": "es2015",
+    "removeComments": true,
+    "declaration": true,
+    "inlineSources": true,
+    "lib": [
+      "dom",
+      "es2018"
+    ]
+  },
+  "angularCompilerOptions": {
+    "annotateForClosureCompiler": true,
+    "skipTemplateCodegen": true,
+    "strictMetadataEmit": true,
+    "enableResourceInlining": true,
+  },
+  "optimization": true,
+  "aot": true,
+  "buildOptimizer": true
+}
