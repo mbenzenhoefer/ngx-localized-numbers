@@ -1,18 +1,16 @@
 {
   "name": "ngx-localized-numbers",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "description": "library to localize numbers and currency with angular",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "lint": "npm run tslint \"src/*.ts\"",
     "build": "ng build",
     "build:prod": "ng build --configuration=production",
     "eslint": "eslint . --cache --ext .ts",
     "eslint:fix": "eslint . --cache --ext .ts --fix",
-    "postinstall": "ngcc",
     "prepublish": "npm run build:prod",
-    "publish": "npm publish dist/ngx-localized-numbers"
+    "publish": "npm publish dist/ngx-localized-numbers/"
   },
   "license": "MIT",
   "keywords": [
@@ -35,38 +33,47 @@
   },
   "homepage": "https://github.com/mbenzenhoefer/ngx-localized-numbers",
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.1102.0",
-    "@angular/animations": "^11.0.0",
-    "@angular/cli": "^11.0.0",
-    "@angular/common": "^11.0.0",
-    "@angular/compiler": "^11.0.0",
-    "@angular/compiler-cli": "^11.0.0",
-    "@angular/core": "^11.0.0",
-    "@angular/platform-browser": "^11.0.0",
-    "@angular/platform-browser-dynamic": "^11.0.0",
-    "@angular/platform-server": "^11.0.0",
-    "@angular-eslint/builder": "^4.0.0",
-    "@angular-eslint/eslint-plugin": "^4.0.0",
-    "@angular-eslint/schematics": "^4.0.0",
-    "@typescript-eslint/eslint-plugin": "4.33.0",
-    "@typescript-eslint/parser": "4.33.0",
-    "@types/core-js": "^0.9.37",
-    "@types/hammerjs": "^2.0.34",
-    "@types/jasmine": "^2.5.38",
-    "@types/node": "^14.0.0",
-    "copyfiles": "^1.2.0",
-    "eslint": "7.32.0",
-    "eslint-config-prettier": "8.3.0",
+    "@angular-devkit/build-angular": "^13.2.6",
+    "@angular/animations": "^13.2.6",
+    "@angular/cli": "^13.2.6",
+    "@angular/common": "^13.2.6",
+    "@angular/compiler": "^13.2.6",
+    "@angular/compiler-cli": "^13.2.6",
+    "@angular/core": "^13.2.6",
+    "@angular/platform-browser": "^13.2.6",
+    "@angular/platform-browser-dynamic": "^13.2.6",
+    "@angular/platform-server": "^13.2.6",
+    "@angular-eslint/builder": "^13.1.0",
+    "@angular-eslint/eslint-plugin": "^13.1.0",
+    "@angular-eslint/schematics": "^13.1.0",
+    "@typescript-eslint/eslint-plugin": "5.15.0",
+    "@typescript-eslint/parser": "5.15.0",
+    "@types/core-js": "^2.5.5",
+    "@types/hammerjs": "^2.0.41",
+    "@types/jasmine": "^4.0.0",
+    "@types/node": "^16.11.26",
+    "copyfiles": "^2.4.1",
+    "eslint": "8.11.0",
+    "eslint-config-prettier": "8.5.0",
     "eslint-plugin-html": "6.2.0",
-    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-import": "2.25.4",
     "eslint-plugin-prefer-arrow": "1.2.3",
     "eslint-plugin-prettier": "4.0.0",
-    "ng-packagr": "^11.0.0",
-    "prettier": "2.5.1",
-    "rxjs": "^6.4.0",
-    "tslib": "^1.6.0",
-    "typescript": "~4.1.0",
-    "zone.js": "^0.11.3"
+    "ng-packagr": "^13.2.1",
+    "prettier": "2.6.0",
+    "rxjs": "^7.5.5",
+    "tslib": "^2.3.1",
+    "typescript": "~4.5.5",
+    "zone.js": "~0.11.5"
   },
-  "typings": "./index.d.ts"
+  "typings": "./index.d.ts",
+  "engines": {
+    "node": ">=16",
+    "npm": ">=8.3"
+  },
+  "overrides": {
+    "karma-jasmine": {
+      "jasmine-core": "4.0.1"
+    }
+  }
 }
